@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FF9EE31B50AF5A00728157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9EE21B50AF5A00728157 /* AppDelegate.swift */; };
+		00FF9EED1B50AF5A00728157 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FF9EEB1B50AF5A00728157 /* LaunchScreen.xib */; };
+		00FF9EF91B50AF5A00728157 /* SwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9EF81B50AF5A00728157 /* SwipeTests.swift */; };
+		00FF9F031B50AF7500728157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FF9F021B50AF7500728157 /* Main.storyboard */; };
+		00FF9F051B50AF7A00728157 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9F041B50AF7A00728157 /* ExampleOverlayView.swift */; };
+		00FF9F071B50AF8000728157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9F061B50AF8000728157 /* ViewController.swift */; };
+		00FF9F091B50AF8500728157 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00FF9F081B50AF8500728157 /* OverlayView.xib */; };
+		00FF9F0D1B50AFAB00728157 /* DraggableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9F0C1B50AFAB00728157 /* DraggableCardView.swift */; };
+		00FF9F0F1B50AFBA00728157 /* KolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9F0E1B50AFBA00728157 /* KolodaView.swift */; };
+		00FF9F111B50AFBF00728157 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9F101B50AFBF00728157 /* OverlayView.swift */; };
+		00FF9F131B50B07600728157 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FF9F121B50B07600728157 /* Images.xcassets */; };
+		00FF9F161B50B0E300728157 /* temp.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FF9F151B50B0E300728157 /* temp.m */; };
+		475059A14E5CA87C8D371374 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6DF83B99D1B9F4B8DA4C5E /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00FF9EF31B50AF5A00728157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00FF9ED51B50AF5900728157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00FF9EDC1B50AF5900728157;
+			remoteInfo = Swipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FF9EDD1B50AF5900728157 /* Swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FF9EE11B50AF5A00728157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FF9EE21B50AF5A00728157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00FF9EEC1B50AF5A00728157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00FF9EF21B50AF5A00728157 /* SwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FF9EF71B50AF5A00728157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FF9EF81B50AF5A00728157 /* SwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTests.swift; sourceTree = "<group>"; };
+		00FF9F021B50AF7500728157 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00FF9F041B50AF7A00728157 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		00FF9F061B50AF8000728157 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00FF9F081B50AF8500728157 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		00FF9F0C1B50AFAB00728157 /* DraggableCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableCardView.swift; sourceTree = "<group>"; };
+		00FF9F0E1B50AFBA00728157 /* KolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KolodaView.swift; sourceTree = "<group>"; };
+		00FF9F101B50AFBF00728157 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		00FF9F121B50B07600728157 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00FF9F141B50B0E200728157 /* Swipe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swipe-Bridging-Header.h"; sourceTree = "<group>"; };
+		00FF9F151B50B0E300728157 /* temp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = temp.m; sourceTree = "<group>"; };
+		8B6DF83B99D1B9F4B8DA4C5E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D3BEBBC218D33ED567AA03 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E22524D6B8EF0B76C35EC35E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00FF9EDA1B50AF5900728157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475059A14E5CA87C8D371374 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FF9EEF1B50AF5A00728157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FF9ED41B50AF5900728157 = {
+			isa = PBXGroup;
+			children = (
+				00FF9EDF1B50AF5900728157 /* Swipe */,
+				00FF9EF51B50AF5A00728157 /* SwipeTests */,
+				00FF9EDE1B50AF5900728157 /* Products */,
+				28554E0DE5E7D1091CEA5F4B /* Pods */,
+				6F490C4F15B118CE216282B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00FF9EDE1B50AF5900728157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00FF9EDD1B50AF5900728157 /* Swipe.app */,
+				00FF9EF21B50AF5A00728157 /* SwipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00FF9EDF1B50AF5900728157 /* Swipe */ = {
+			isa = PBXGroup;
+			children = (
+				00FF9EE21B50AF5A00728157 /* AppDelegate.swift */,
+				00FF9F021B50AF7500728157 /* Main.storyboard */,
+				00FF9F061B50AF8000728157 /* ViewController.swift */,
+				00FF9EEB1B50AF5A00728157 /* LaunchScreen.xib */,
+				00FF9F081B50AF8500728157 /* OverlayView.xib */,
+				00FF9F041B50AF7A00728157 /* ExampleOverlayView.swift */,
+				00FF9F121B50B07600728157 /* Images.xcassets */,
+				00FF9EE01B50AF5A00728157 /* Supporting Files */,
+			);
+			path = Swipe;
+			sourceTree = "<group>";
+		};
+		00FF9EE01B50AF5A00728157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FF9F0C1B50AFAB00728157 /* DraggableCardView.swift */,
+				00FF9F101B50AFBF00728157 /* OverlayView.swift */,
+				00FF9F0E1B50AFBA00728157 /* KolodaView.swift */,
+				00FF9F151B50B0E300728157 /* temp.m */,
+				00FF9EE11B50AF5A00728157 /* Info.plist */,
+				00FF9F141B50B0E200728157 /* Swipe-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00FF9EF51B50AF5A00728157 /* SwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00FF9EF81B50AF5A00728157 /* SwipeTests.swift */,
+				00FF9EF61B50AF5A00728157 /* Supporting Files */,
+			);
+			path = SwipeTests;
+			sourceTree = "<group>";
+		};
+		00FF9EF61B50AF5A00728157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FF9EF71B50AF5A00728157 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28554E0DE5E7D1091CEA5F4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22524D6B8EF0B76C35EC35E /* Pods.debug.xcconfig */,
+				B2D3BEBBC218D33ED567AA03 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F490C4F15B118CE216282B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B6DF83B99D1B9F4B8DA4C5E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00FF9EDC1B50AF5900728157 /* Swipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FF9EFC1B50AF5A00728157 /* Build configuration list for PBXNativeTarget "Swipe" */;
+			buildPhases = (
+				9474560CF4899FED9BF472A0 /* Check Pods Manifest.lock */,
+				00FF9ED91B50AF5900728157 /* Sources */,
+				00FF9EDA1B50AF5900728157 /* Frameworks */,
+				00FF9EDB1B50AF5900728157 /* Resources */,
+				E72173588712E073D12881F7 /* Embed Pods Frameworks */,
+				EF649C4C4F16D68E14096C71 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swipe;
+			productName = Swipe;
+			productReference = 00FF9EDD1B50AF5900728157 /* Swipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00FF9EF11B50AF5A00728157 /* SwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FF9EFF1B50AF5A00728157 /* Build configuration list for PBXNativeTarget "SwipeTests" */;
+			buildPhases = (
+				00FF9EEE1B50AF5A00728157 /* Sources */,
+				00FF9EEF1B50AF5A00728157 /* Frameworks */,
+				00FF9EF01B50AF5A00728157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00FF9EF41B50AF5A00728157 /* PBXTargetDependency */,
+			);
+			name = SwipeTests;
+			productName = SwipeTests;
+			productReference = 00FF9EF21B50AF5A00728157 /* SwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00FF9ED51B50AF5900728157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Aaron Monick";
+				TargetAttributes = {
+					00FF9EDC1B50AF5900728157 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					00FF9EF11B50AF5A00728157 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 00FF9EDC1B50AF5900728157;
+					};
+				};
+			};
+			buildConfigurationList = 00FF9ED81B50AF5900728157 /* Build configuration list for PBXProject "Swipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00FF9ED41B50AF5900728157;
+			productRefGroup = 00FF9EDE1B50AF5900728157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00FF9EDC1B50AF5900728157 /* Swipe */,
+				00FF9EF11B50AF5A00728157 /* SwipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00FF9EDB1B50AF5900728157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FF9EED1B50AF5A00728157 /* LaunchScreen.xib in Resources */,
+				00FF9F131B50B07600728157 /* Images.xcassets in Resources */,
+				00FF9F091B50AF8500728157 /* OverlayView.xib in Resources */,
+				00FF9F031B50AF7500728157 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FF9EF01B50AF5A00728157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9474560CF4899FED9BF472A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E72173588712E073D12881F7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF649C4C4F16D68E14096C71 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00FF9ED91B50AF5900728157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FF9F0D1B50AFAB00728157 /* DraggableCardView.swift in Sources */,
+				00FF9F161B50B0E300728157 /* temp.m in Sources */,
+				00FF9F071B50AF8000728157 /* ViewController.swift in Sources */,
+				00FF9F051B50AF7A00728157 /* ExampleOverlayView.swift in Sources */,
+				00FF9F111B50AFBF00728157 /* OverlayView.swift in Sources */,
+				00FF9EE31B50AF5A00728157 /* AppDelegate.swift in Sources */,
+				00FF9F0F1B50AFBA00728157 /* KolodaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FF9EEE1B50AF5A00728157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FF9EF91B50AF5A00728157 /* SwipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00FF9EF41B50AF5A00728157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00FF9EDC1B50AF5900728157 /* Swipe */;
+			targetProxy = 00FF9EF31B50AF5A00728157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00FF9EEB1B50AF5A00728157 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FF9EEC1B50AF5A00728157 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00FF9EFA1B50AF5A00728157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00FF9EFB1B50AF5A00728157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FF9EFD1B50AF5A00728157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22524D6B8EF0B76C35EC35E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Swipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swipe/Swipe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00FF9EFE1B50AF5A00728157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D3BEBBC218D33ED567AA03 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Swipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swipe/Swipe-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		00FF9F001B50AF5A00728157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe.app/Swipe";
+			};
+			name = Debug;
+		};
+		00FF9F011B50AF5A00728157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe.app/Swipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00FF9ED81B50AF5900728157 /* Build configuration list for PBXProject "Swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FF9EFA1B50AF5A00728157 /* Debug */,
+				00FF9EFB1B50AF5A00728157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FF9EFC1B50AF5A00728157 /* Build configuration list for PBXNativeTarget "Swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FF9EFD1B50AF5A00728157 /* Debug */,
+				00FF9EFE1B50AF5A00728157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FF9EFF1B50AF5A00728157 /* Build configuration list for PBXNativeTarget "SwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FF9F001B50AF5A00728157 /* Debug */,
+				00FF9F011B50AF5A00728157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00FF9ED51B50AF5900728157 /* Project object */;
+}
